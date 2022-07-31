@@ -1,0 +1,273 @@
+2022-07-20 19:08:17,869	[INFO]	========== EPOCH 1 ==========
+2022-07-20 19:08:17,869	[INFO]	==== WARMUP ====
+2022-07-20 19:08:21,473	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1507.0>
+2022-07-20 19:08:21,473	[INFO]	WARM	SUCCESS	 1507.0	
+2022-07-20 19:08:25,112	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1509.0>
+2022-07-20 19:08:25,112	[INFO]	WARM	SUCCESS	 1509.0	
+2022-07-20 19:08:28,680	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1516.0>
+2022-07-20 19:08:28,680	[INFO]	WARM	SUCCESS	 1516.0	
+2022-07-20 19:08:32,209	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1509.0>
+2022-07-20 19:08:32,209	[INFO]	INITIAL	SUCCESS	 1509.0	
+2022-07-20 19:08:32,209	[INFO]	==== START ====
+2022-07-20 19:08:35,781	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1496.0>
+2022-07-20 19:08:35,781	[INFO]	1	SUCCESS	*1496.0 (99.14%)	MultilineStatementInsertion(('Triangle.java.xml', '_inter_block', 6), ('Triangle.java.xml', 'multiline_stmt', 0))
+2022-07-20 19:08:35,782	[DEBUG]	*** before: Triangle.java.xml
+--- after: Triangle.java.xml
+***************
+*** 7,12 ****
+--- 7,18 ----
+      public static TriangleType classifyTriangle(int a, int b, int c) {
+  
+          delay();
++ 
++         if (a > b) {
++             int tmp = a;
++             a = b;
++             b = tmp;
++         }
+  
+          // Sort the sides so that a <= b <= c
+          if (a > b) {
+
+2022-07-20 19:08:35,783	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1509.0>
+2022-07-20 19:08:35,783	[INFO]	2	SUCCESS	 1509.0 (100.0%)	
+2022-07-20 19:08:38,632	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 19:08:38,632	[INFO]	3	PARSE_ERROR	 None	MultilineStatementInsertion(('Triangle.java.xml', '_inter_block', 6), ('Triangle.java.xml', 'multiline_stmt', 0)) | MultilineStatementDeletion(('Triangle.java.xml', 'multiline_stmt', 2))
+2022-07-20 19:08:39,777	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 19:08:39,778	[INFO]	4	PARSE_ERROR	 None	MultilineStatementInsertion(('Triangle.java.xml', '_inter_block', 6), ('Triangle.java.xml', 'multiline_stmt', 0)) | expressionStatementInsertion(('Triangle.java.xml', '_inter_block', 3), ('Triangle.java.xml', 'expression', 2))
+2022-07-20 19:08:41,809	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 19:08:41,809	[INFO]	5	PARSE_ERROR	 None	MultilineStatementInsertion(('Triangle.java.xml', '_inter_block', 6), ('Triangle.java.xml', 'multiline_stmt', 0)) | expressionStatementReplacement(('Triangle.java.xml', 'expression', 0), ('Triangle.java.xml', 'expression', 3))
+2022-07-20 19:08:41,810	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1496.0>
+2022-07-20 19:08:41,810	[INFO]	6	SUCCESS	+1496.0 (99.14%)	MultilineStatementInsertion(('Triangle.java.xml', '_inter_block', 6), ('Triangle.java.xml', 'multiline_stmt', 0)) | declarationsStatementReplacement(('Triangle.java.xml', 'declarations', 2), ('Triangle.java.xml', 'declarations', 1))
+2022-07-20 19:08:41,810	[DEBUG]	*** before: Triangle.java.xml
+--- after: Triangle.java.xml
+***************
+*** 7,12 ****
+--- 7,18 ----
+      public static TriangleType classifyTriangle(int a, int b, int c) {
+  
+          delay();
++ 
++         if (a > b) {
++             int tmp = a;
++             a = b;
++             b = tmp;
++         }
+  
+          // Sort the sides so that a <= b <= c
+          if (a > b) {
+
+2022-07-20 19:08:44,536	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 19:08:44,536	[INFO]	7	PARSE_ERROR	 None	declarationsStatementReplacement(('Triangle.java.xml', 'declarations', 2), ('Triangle.java.xml', 'declarations', 1))
+2022-07-20 19:08:44,537	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1496.0>
+2022-07-20 19:08:44,537	[INFO]	8	SUCCESS	+1496.0 (99.14%)	MultilineStatementInsertion(('Triangle.java.xml', '_inter_block', 6), ('Triangle.java.xml', 'multiline_stmt', 0)) | declarationsStatementReplacement(('Triangle.java.xml', 'declarations', 2), ('Triangle.java.xml', 'declarations', 1)) | declarationsStatementReplacement(('Triangle.java.xml', 'declarations', 2), ('Triangle.java.xml', 'declarations', 0))
+2022-07-20 19:08:44,538	[DEBUG]	*** before: Triangle.java.xml
+--- after: Triangle.java.xml
+***************
+*** 7,12 ****
+--- 7,18 ----
+      public static TriangleType classifyTriangle(int a, int b, int c) {
+  
+          delay();
++ 
++         if (a > b) {
++             int tmp = a;
++             a = b;
++             b = tmp;
++         }
+  
+          // Sort the sides so that a <= b <= c
+          if (a > b) {
+
+2022-07-20 19:08:48,237	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1511.0>
+2022-07-20 19:08:48,237	[INFO]	9	SUCCESS	 1511.0 (100.13%)	MultilineStatementInsertion(('Triangle.java.xml', '_inter_block', 6), ('Triangle.java.xml', 'multiline_stmt', 0)) | declarationsStatementReplacement(('Triangle.java.xml', 'declarations', 2), ('Triangle.java.xml', 'declarations', 1)) | declarationsStatementReplacement(('Triangle.java.xml', 'declarations', 2), ('Triangle.java.xml', 'declarations', 0)) | expressionStatementInsertion(('Triangle.java.xml', '_inter_block', 16), ('Triangle.java.xml', 'expression', 0))
+2022-07-20 19:08:48,238	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1496.0>
+2022-07-20 19:08:48,238	[INFO]	10	SUCCESS	+1496.0 (99.14%)	MultilineStatementInsertion(('Triangle.java.xml', '_inter_block', 6), ('Triangle.java.xml', 'multiline_stmt', 0)) | declarationsStatementReplacement(('Triangle.java.xml', 'declarations', 2), ('Triangle.java.xml', 'declarations', 1))
+2022-07-20 19:08:48,239	[DEBUG]	*** before: Triangle.java.xml
+--- after: Triangle.java.xml
+***************
+*** 7,12 ****
+--- 7,18 ----
+      public static TriangleType classifyTriangle(int a, int b, int c) {
+  
+          delay();
++ 
++         if (a > b) {
++             int tmp = a;
++             a = b;
++             b = tmp;
++         }
+  
+          // Sort the sides so that a <= b <= c
+          if (a > b) {
+
+2022-07-20 19:08:48,239	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1496.0>
+2022-07-20 19:08:48,239	[INFO]	11	SUCCESS	+1496.0 (99.14%)	MultilineStatementInsertion(('Triangle.java.xml', '_inter_block', 6), ('Triangle.java.xml', 'multiline_stmt', 0))
+2022-07-20 19:08:48,239	[DEBUG]	*** before: Triangle.java.xml
+--- after: Triangle.java.xml
+***************
+*** 7,12 ****
+--- 7,18 ----
+      public static TriangleType classifyTriangle(int a, int b, int c) {
+  
+          delay();
++ 
++         if (a > b) {
++             int tmp = a;
++             a = b;
++             b = tmp;
++         }
+  
+          // Sort the sides so that a <= b <= c
+          if (a > b) {
+
+2022-07-20 19:08:48,240	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1496.0>
+2022-07-20 19:08:48,240	[INFO]	12	SUCCESS	+1496.0 (99.14%)	MultilineStatementInsertion(('Triangle.java.xml', '_inter_block', 6), ('Triangle.java.xml', 'multiline_stmt', 0)) | StmtReplacement(('Triangle.java.xml', 'stmt', 2), ('Triangle.java.xml', 'stmt', 2))
+2022-07-20 19:08:48,241	[DEBUG]	*** before: Triangle.java.xml
+--- after: Triangle.java.xml
+***************
+*** 7,12 ****
+--- 7,18 ----
+      public static TriangleType classifyTriangle(int a, int b, int c) {
+  
+          delay();
++ 
++         if (a > b) {
++             int tmp = a;
++             a = b;
++             b = tmp;
++         }
+  
+          // Sort the sides so that a <= b <= c
+          if (a > b) {
+
+2022-07-20 19:08:48,241	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1509.0>
+2022-07-20 19:08:48,241	[INFO]	13	SUCCESS	 1509.0 (100.0%)	StmtReplacement(('Triangle.java.xml', 'stmt', 2), ('Triangle.java.xml', 'stmt', 2))
+2022-07-20 19:08:49,994	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 19:08:49,994	[INFO]	14	PARSE_ERROR	 None	MultilineStatementInsertion(('Triangle.java.xml', '_inter_block', 6), ('Triangle.java.xml', 'multiline_stmt', 0)) | StmtReplacement(('Triangle.java.xml', 'stmt', 2), ('Triangle.java.xml', 'stmt', 2)) | MultilineStatementInsertion(('Triangle.java.xml', '_inter_block', 6), ('Triangle.java.xml', 'multiline_stmt', 3))
+2022-07-20 19:08:49,995	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1496.0>
+2022-07-20 19:08:49,995	[INFO]	15	SUCCESS	+1496.0 (99.14%)	MultilineStatementInsertion(('Triangle.java.xml', '_inter_block', 6), ('Triangle.java.xml', 'multiline_stmt', 0)) | StmtReplacement(('Triangle.java.xml', 'stmt', 2), ('Triangle.java.xml', 'stmt', 2)) | StmtDeletion(('Triangle.java.xml', 'stmt', 3))
+2022-07-20 19:08:49,996	[DEBUG]	*** before: Triangle.java.xml
+--- after: Triangle.java.xml
+***************
+*** 7,12 ****
+--- 7,18 ----
+      public static TriangleType classifyTriangle(int a, int b, int c) {
+  
+          delay();
++ 
++         if (a > b) {
++             int tmp = a;
++             a = b;
++             b = tmp;
++         }
+  
+          // Sort the sides so that a <= b <= c
+          if (a > b) {
+
+2022-07-20 19:08:49,996	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1496.0>
+2022-07-20 19:08:49,996	[INFO]	16	SUCCESS	+1496.0 (99.14%)	MultilineStatementInsertion(('Triangle.java.xml', '_inter_block', 6), ('Triangle.java.xml', 'multiline_stmt', 0)) | StmtDeletion(('Triangle.java.xml', 'stmt', 3))
+2022-07-20 19:08:49,997	[DEBUG]	*** before: Triangle.java.xml
+--- after: Triangle.java.xml
+***************
+*** 7,12 ****
+--- 7,18 ----
+      public static TriangleType classifyTriangle(int a, int b, int c) {
+  
+          delay();
++ 
++         if (a > b) {
++             int tmp = a;
++             a = b;
++             b = tmp;
++         }
+  
+          // Sort the sides so that a <= b <= c
+          if (a > b) {
+
+2022-07-20 19:08:49,997	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1496.0>
+2022-07-20 19:08:49,997	[INFO]	17	SUCCESS	+1496.0 (99.14%)	MultilineStatementInsertion(('Triangle.java.xml', '_inter_block', 6), ('Triangle.java.xml', 'multiline_stmt', 0))
+2022-07-20 19:08:49,997	[DEBUG]	*** before: Triangle.java.xml
+--- after: Triangle.java.xml
+***************
+*** 7,12 ****
+--- 7,18 ----
+      public static TriangleType classifyTriangle(int a, int b, int c) {
+  
+          delay();
++ 
++         if (a > b) {
++             int tmp = a;
++             a = b;
++             b = tmp;
++         }
+  
+          // Sort the sides so that a <= b <= c
+          if (a > b) {
+
+2022-07-20 19:08:49,998	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1509.0>
+2022-07-20 19:08:49,998	[INFO]	18	SUCCESS	 1509.0 (100.0%)	
+2022-07-20 19:08:51,744	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 19:08:51,745	[INFO]	19	PARSE_ERROR	 None	MultilineStatementInsertion(('Triangle.java.xml', '_inter_block', 6), ('Triangle.java.xml', 'multiline_stmt', 0)) | declarationsStatementInsertion(('Triangle.java.xml', '_inter_block', 33), ('Triangle.java.xml', 'declarations', 2))
+2022-07-20 19:08:53,441	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 19:08:53,442	[INFO]	20	PARSE_ERROR	 None	MultilineStatementInsertion(('Triangle.java.xml', '_inter_block', 6), ('Triangle.java.xml', 'multiline_stmt', 0)) | MultilineStatementInsertion(('Triangle.java.xml', '_inter_block', 36), ('Triangle.java.xml', 'multiline_stmt', 5))
+2022-07-20 19:08:56,994	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1496.0>
+2022-07-20 19:08:56,995	[INFO]	21	SUCCESS	+1496.0 (99.14%)	MultilineStatementInsertion(('Triangle.java.xml', '_inter_block', 6), ('Triangle.java.xml', 'multiline_stmt', 0)) | declarationsStatementReplacement(('Triangle.java.xml', 'declarations', 1), ('Triangle.java.xml', 'declarations', 2))
+2022-07-20 19:08:56,995	[DEBUG]	*** before: Triangle.java.xml
+--- after: Triangle.java.xml
+***************
+*** 8,16 ****
+  
+          delay();
+  
+          // Sort the sides so that a <= b <= c
+          if (a > b) {
+!             int tmp = a;
+              a = b;
+              b = tmp;
+          }
+--- 8,22 ----
+  
+          delay();
+  
++         if (a > b) {
++             int tmp = a;
++             a = b;
++             b = tmp;
++         }
++ 
+          // Sort the sides so that a <= b <= c
+          if (a > b) {
+!             int tmp = b;
+              a = b;
+              b = tmp;
+          }
+
+2022-07-20 19:08:58,758	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 19:08:58,758	[INFO]	22	PARSE_ERROR	 None	MultilineStatementInsertion(('Triangle.java.xml', '_inter_block', 6), ('Triangle.java.xml', 'multiline_stmt', 0)) | declarationsStatementReplacement(('Triangle.java.xml', 'declarations', 1), ('Triangle.java.xml', 'declarations', 2)) | declarationsStatementInsertion(('Triangle.java.xml', '_inter_block', 1), ('Triangle.java.xml', 'declarations', 1))
+2022-07-20 19:08:58,759	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1496.0>
+2022-07-20 19:08:58,759	[INFO]	23	SUCCESS	+1496.0 (99.14%)	MultilineStatementInsertion(('Triangle.java.xml', '_inter_block', 6), ('Triangle.java.xml', 'multiline_stmt', 0))
+2022-07-20 19:08:58,759	[DEBUG]	*** before: Triangle.java.xml
+--- after: Triangle.java.xml
+***************
+*** 7,12 ****
+--- 7,18 ----
+      public static TriangleType classifyTriangle(int a, int b, int c) {
+  
+          delay();
++ 
++         if (a > b) {
++             int tmp = a;
++             a = b;
++             b = tmp;
++         }
+  
+          // Sort the sides so that a <= b <= c
+          if (a > b) {
+
+2022-07-20 19:08:58,759	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1509.0>
+2022-07-20 19:08:58,759	[INFO]	24	SUCCESS	 1509.0 (100.0%)	
+2022-07-20 19:09:00,495	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 19:09:00,495	[INFO]	25	PARSE_ERROR	 None	MultilineStatementInsertion(('Triangle.java.xml', '_inter_block', 6), ('Triangle.java.xml', 'multiline_stmt', 0)) | declarationsStatementDeletion(('Triangle.java.xml', 'declarations', 0))
+2022-07-20 19:09:01,666	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 19:09:01,666	[INFO]	26	PARSE_ERROR	 None	MultilineStatementInsertion(('Triangle.java.xml', '_inter_block', 6), ('Triangle.java.xml', 'multiline_stmt', 0)) | expressionStatementInsertion(('Triangle.java.xml', '_inter_block', 31), ('Triangle.java.xml', 'expression', 3))
