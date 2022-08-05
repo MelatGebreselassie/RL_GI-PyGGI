@@ -1,0 +1,259 @@
+2022-07-20 18:40:25,635	[INFO]	========== EPOCH 1 ==========
+2022-07-20 18:40:25,635	[INFO]	==== WARMUP ====
+2022-07-20 18:40:30,631	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1503.0>
+2022-07-20 18:40:30,632	[INFO]	WARM	SUCCESS	 1503.0	
+2022-07-20 18:40:34,554	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1504.0>
+2022-07-20 18:40:34,554	[INFO]	WARM	SUCCESS	 1504.0	
+2022-07-20 18:40:38,277	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1516.0>
+2022-07-20 18:40:38,277	[INFO]	WARM	SUCCESS	 1516.0	
+2022-07-20 18:40:41,887	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1497.0>
+2022-07-20 18:40:41,887	[INFO]	INITIAL	SUCCESS	 1497.0	
+2022-07-20 18:40:41,887	[INFO]	==== START ====
+2022-07-20 18:40:43,932	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:40:43,933	[INFO]	1	PARSE_ERROR	 None	declarationsStatementInsertion(('Triangle.java.xml', '_inter_block', 3), ('Triangle.java.xml', 'declarations', 0))
+2022-07-20 18:40:45,685	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:40:45,685	[INFO]	2	PARSE_ERROR	 None	declarationsStatementDeletion(('Triangle.java.xml', 'declarations', 1))
+2022-07-20 18:40:47,491	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:40:47,492	[INFO]	3	PARSE_ERROR	 None	StmtInsertion(('Triangle.java.xml', '_inter_block', 28), ('Triangle.java.xml', 'stmt', 1))
+2022-07-20 18:40:49,256	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:40:49,257	[INFO]	4	PARSE_ERROR	 None	declarationsStatementDeletion(('Triangle.java.xml', 'declarations', 2))
+2022-07-20 18:40:52,789	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:40:52,789	[INFO]	5	PARSE_ERROR	 None	MultilineStatementDeletion(('Triangle.java.xml', 'multiline_stmt', 0))
+2022-07-20 18:40:56,479	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1517.0>
+2022-07-20 18:40:56,481	[INFO]	6	SUCCESS	 1517.0 (101.34%)	MultilineStatementInsertion(('Triangle.java.xml', '_inter_block', 27), ('Triangle.java.xml', 'multiline_stmt', 0))
+2022-07-20 18:40:58,246	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:40:58,247	[INFO]	7	PARSE_ERROR	 None	expressionStatementReplacement(('Triangle.java.xml', 'expression', 0), ('Triangle.java.xml', 'expression', 4))
+2022-07-20 18:41:01,929	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:41:01,929	[INFO]	8	PARSE_ERROR	 None	MultilineStatementDeletion(('Triangle.java.xml', 'multiline_stmt', 1))
+2022-07-20 18:41:05,459	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:41:05,460	[INFO]	9	PARSE_ERROR	 None	StmtReplacement(('Triangle.java.xml', 'stmt', 1), ('Triangle.java.xml', 'stmt', 0))
+2022-07-20 18:41:08,249	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:41:08,249	[INFO]	10	PARSE_ERROR	 None	declarationsStatementReplacement(('Triangle.java.xml', 'declarations', 2), ('Triangle.java.xml', 'declarations', 0))
+2022-07-20 18:41:11,929	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:41:11,930	[INFO]	11	PARSE_ERROR	 None	MultilineStatementReplacement(('Triangle.java.xml', 'multiline_stmt', 1), ('Triangle.java.xml', 'multiline_stmt', 0))
+2022-07-20 18:41:11,930	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1497.0>
+2022-07-20 18:41:11,930	[INFO]	12	SUCCESS	+1497.0 (100.0%)	declarationsStatementReplacement(('Triangle.java.xml', 'declarations', 1), ('Triangle.java.xml', 'declarations', 0))
+2022-07-20 18:41:11,931	[DEBUG]	
+2022-07-20 18:41:15,324	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:41:15,324	[INFO]	13	PARSE_ERROR	 None	declarationsStatementReplacement(('Triangle.java.xml', 'declarations', 1), ('Triangle.java.xml', 'declarations', 0)) | StmtReplacement(('Triangle.java.xml', 'stmt', 2), ('Triangle.java.xml', 'stmt', 0))
+2022-07-20 18:41:15,325	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1497.0>
+2022-07-20 18:41:15,325	[INFO]	14	SUCCESS	+1497.0 (100.0%)	
+2022-07-20 18:41:15,325	[DEBUG]	
+2022-07-20 18:41:17,287	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:41:17,287	[INFO]	15	PARSE_ERROR	 None	declarationsStatementDeletion(('Triangle.java.xml', 'declarations', 0))
+2022-07-20 18:41:20,910	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:41:20,910	[INFO]	16	PARSE_ERROR	 None	expressionStatementDeletion(('Triangle.java.xml', 'expression', 4))
+2022-07-20 18:41:22,915	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:41:22,915	[INFO]	17	PARSE_ERROR	 None	declarationsStatementInsertion(('Triangle.java.xml', '_inter_block', 33), ('Triangle.java.xml', 'declarations', 0))
+2022-07-20 18:41:25,535	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:41:25,535	[INFO]	18	PARSE_ERROR	 None	StmtDeletion(('Triangle.java.xml', 'stmt', 1))
+2022-07-20 18:41:25,536	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:41:25,536	[INFO]	19	PARSE_ERROR	 None	StmtDeletion(('Triangle.java.xml', 'stmt', 1))
+2022-07-20 18:41:25,536	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1497.0>
+2022-07-20 18:41:25,536	[INFO]	20	SUCCESS	+1497.0 (100.0%)	MultilineStatementReplacement(('Triangle.java.xml', 'multiline_stmt', 0), ('Triangle.java.xml', 'multiline_stmt', 0))
+2022-07-20 18:41:25,537	[DEBUG]	
+2022-07-20 18:41:25,537	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:41:25,537	[INFO]	21	PARSE_ERROR	 None	MultilineStatementReplacement(('Triangle.java.xml', 'multiline_stmt', 0), ('Triangle.java.xml', 'multiline_stmt', 0)) | declarationsStatementReplacement(('Triangle.java.xml', 'declarations', 2), ('Triangle.java.xml', 'declarations', 0))
+2022-07-20 18:41:25,538	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1497.0>
+2022-07-20 18:41:25,538	[INFO]	22	SUCCESS	+1497.0 (100.0%)	
+2022-07-20 18:41:25,538	[DEBUG]	
+2022-07-20 18:41:28,847	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:41:28,847	[INFO]	23	PARSE_ERROR	 None	expressionStatementDeletion(('Triangle.java.xml', 'expression', 6))
+2022-07-20 18:41:28,848	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1497.0>
+2022-07-20 18:41:28,848	[INFO]	24	SUCCESS	+1497.0 (100.0%)	StmtReplacement(('Triangle.java.xml', 'stmt', 2), ('Triangle.java.xml', 'stmt', 2))
+2022-07-20 18:41:28,848	[DEBUG]	
+2022-07-20 18:41:28,849	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1497.0>
+2022-07-20 18:41:28,849	[INFO]	25	SUCCESS	+1497.0 (100.0%)	
+2022-07-20 18:41:28,849	[DEBUG]	
+2022-07-20 18:41:33,207	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:41:33,208	[INFO]	26	PARSE_ERROR	 None	StmtReplacement(('Triangle.java.xml', 'stmt', 3), ('Triangle.java.xml', 'stmt', 0))
+2022-07-20 18:41:36,036	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:41:36,036	[INFO]	27	PARSE_ERROR	 None	declarationsStatementInsertion(('Triangle.java.xml', '_inter_block', 13), ('Triangle.java.xml', 'declarations', 2))
+2022-07-20 18:41:39,252	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:41:39,253	[INFO]	28	PARSE_ERROR	 None	StmtDeletion(('Triangle.java.xml', 'stmt', 2))
+2022-07-20 18:41:39,253	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:41:39,253	[INFO]	29	PARSE_ERROR	 None	declarationsStatementDeletion(('Triangle.java.xml', 'declarations', 1))
+2022-07-20 18:41:42,804	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:41:42,819	[INFO]	30	PARSE_ERROR	 None	expressionStatementDeletion(('Triangle.java.xml', 'expression', 2))
+2022-07-20 18:41:47,030	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:41:47,030	[INFO]	31	PARSE_ERROR	 None	MultilineStatementReplacement(('Triangle.java.xml', 'multiline_stmt', 1), ('Triangle.java.xml', 'multiline_stmt', 2))
+2022-07-20 18:41:48,901	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:41:48,901	[INFO]	32	PARSE_ERROR	 None	declarationsStatementInsertion(('Triangle.java.xml', '_inter_block', 22), ('Triangle.java.xml', 'declarations', 0))
+2022-07-20 18:41:53,323	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:41:53,323	[INFO]	33	PARSE_ERROR	 None	MultilineStatementDeletion(('Triangle.java.xml', 'multiline_stmt', 3))
+2022-07-20 18:41:57,038	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1827.0>
+2022-07-20 18:41:57,039	[INFO]	34	SUCCESS	 1827.0 (122.04%)	expressionStatementInsertion(('Triangle.java.xml', '_inter_block', 29), ('Triangle.java.xml', 'expression', 0))
+2022-07-20 18:42:00,712	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:42:00,712	[INFO]	35	PARSE_ERROR	 None	MultilineStatementReplacement(('Triangle.java.xml', 'multiline_stmt', 0), ('Triangle.java.xml', 'multiline_stmt', 1))
+2022-07-20 18:42:04,015	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:42:04,015	[INFO]	36	PARSE_ERROR	 None	expressionStatementDeletion(('Triangle.java.xml', 'expression', 3))
+2022-07-20 18:42:04,016	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:42:04,016	[INFO]	37	PARSE_ERROR	 None	expressionStatementDeletion(('Triangle.java.xml', 'expression', 3))
+2022-07-20 18:42:06,918	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:42:06,919	[INFO]	38	PARSE_ERROR	 None	declarationsStatementReplacement(('Triangle.java.xml', 'declarations', 1), ('Triangle.java.xml', 'declarations', 2))
+2022-07-20 18:42:06,919	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:42:06,919	[INFO]	39	PARSE_ERROR	 None	StmtDeletion(('Triangle.java.xml', 'stmt', 1))
+2022-07-20 18:42:08,735	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:42:08,735	[INFO]	40	PARSE_ERROR	 None	StmtDeletion(('Triangle.java.xml', 'stmt', 0))
+2022-07-20 18:42:12,601	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1504.0>
+2022-07-20 18:42:12,602	[INFO]	41	SUCCESS	 1504.0 (100.47%)	MultilineStatementInsertion(('Triangle.java.xml', '_inter_block', 12), ('Triangle.java.xml', 'multiline_stmt', 4))
+2022-07-20 18:42:16,868	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:42:16,868	[INFO]	42	PARSE_ERROR	 None	MultilineStatementReplacement(('Triangle.java.xml', 'multiline_stmt', 4), ('Triangle.java.xml', 'multiline_stmt', 5))
+2022-07-20 18:42:16,869	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:42:16,869	[INFO]	43	PARSE_ERROR	 None	MultilineStatementDeletion(('Triangle.java.xml', 'multiline_stmt', 1))
+2022-07-20 18:42:16,869	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:42:16,869	[INFO]	44	PARSE_ERROR	 None	MultilineStatementDeletion(('Triangle.java.xml', 'multiline_stmt', 1))
+2022-07-20 18:42:19,144	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:42:19,144	[INFO]	45	PARSE_ERROR	 None	StmtInsertion(('Triangle.java.xml', '_inter_block', 8), ('Triangle.java.xml', 'stmt', 3))
+2022-07-20 18:42:22,132	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:42:22,133	[INFO]	46	PARSE_ERROR	 None	StmtReplacement(('Triangle.java.xml', 'stmt', 0), ('Triangle.java.xml', 'stmt', 1))
+2022-07-20 18:42:25,923	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:42:25,923	[INFO]	47	PARSE_ERROR	 None	MultilineStatementInsertion(('Triangle.java.xml', '_inter_block', 11), ('Triangle.java.xml', 'multiline_stmt', 0))
+2022-07-20 18:42:29,305	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:42:29,305	[INFO]	48	PARSE_ERROR	 None	StmtReplacement(('Triangle.java.xml', 'stmt', 3), ('Triangle.java.xml', 'stmt', 1))
+2022-07-20 18:42:31,066	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:42:31,067	[INFO]	49	PARSE_ERROR	 None	declarationsStatementInsertion(('Triangle.java.xml', '_inter_block', 15), ('Triangle.java.xml', 'declarations', 0))
+2022-07-20 18:42:34,003	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:42:34,004	[INFO]	50	PARSE_ERROR	 None	expressionStatementReplacement(('Triangle.java.xml', 'expression', 6), ('Triangle.java.xml', 'expression', 2))
+2022-07-20 18:42:34,004	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:42:34,005	[INFO]	51	PARSE_ERROR	 None	StmtReplacement(('Triangle.java.xml', 'stmt', 3), ('Triangle.java.xml', 'stmt', 0))
+2022-07-20 18:42:34,005	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:42:34,005	[INFO]	52	PARSE_ERROR	 None	StmtDeletion(('Triangle.java.xml', 'stmt', 2))
+2022-07-20 18:42:34,005	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:42:34,005	[INFO]	53	PARSE_ERROR	 None	declarationsStatementDeletion(('Triangle.java.xml', 'declarations', 0))
+2022-07-20 18:42:35,763	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:42:35,763	[INFO]	54	PARSE_ERROR	 None	StmtDeletion(('Triangle.java.xml', 'stmt', 3))
+2022-07-20 18:42:35,763	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:42:35,763	[INFO]	55	PARSE_ERROR	 None	declarationsStatementReplacement(('Triangle.java.xml', 'declarations', 2), ('Triangle.java.xml', 'declarations', 0))
+2022-07-20 18:42:37,510	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:42:37,511	[INFO]	56	PARSE_ERROR	 None	MultilineStatementInsertion(('Triangle.java.xml', '_inter_block', 36), ('Triangle.java.xml', 'multiline_stmt', 5))
+2022-07-20 18:42:39,194	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:42:39,194	[INFO]	57	PARSE_ERROR	 None	StmtInsertion(('Triangle.java.xml', '_inter_block', 10), ('Triangle.java.xml', 'stmt', 1))
+2022-07-20 18:42:42,248	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:42:42,248	[INFO]	58	PARSE_ERROR	 None	expressionStatementReplacement(('Triangle.java.xml', 'expression', 2), ('Triangle.java.xml', 'expression', 0))
+2022-07-20 18:42:43,969	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:42:43,969	[INFO]	59	PARSE_ERROR	 None	declarationsStatementInsertion(('Triangle.java.xml', '_inter_block', 17), ('Triangle.java.xml', 'declarations', 2))
+2022-07-20 18:42:45,706	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:42:45,706	[INFO]	60	PARSE_ERROR	 None	MultilineStatementReplacement(('Triangle.java.xml', 'multiline_stmt', 3), ('Triangle.java.xml', 'multiline_stmt', 5))
+2022-07-20 18:42:45,707	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:42:45,707	[INFO]	61	PARSE_ERROR	 None	StmtDeletion(('Triangle.java.xml', 'stmt', 1))
+2022-07-20 18:42:47,496	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:42:47,496	[INFO]	62	PARSE_ERROR	 None	expressionStatementInsertion(('Triangle.java.xml', '_inter_block', 24), ('Triangle.java.xml', 'expression', 3))
+2022-07-20 18:42:47,497	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:42:47,497	[INFO]	63	PARSE_ERROR	 None	declarationsStatementDeletion(('Triangle.java.xml', 'declarations', 0))
+2022-07-20 18:42:47,497	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:42:47,497	[INFO]	64	PARSE_ERROR	 None	StmtDeletion(('Triangle.java.xml', 'stmt', 2))
+2022-07-20 18:42:51,043	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1497.0>
+2022-07-20 18:42:51,043	[INFO]	65	SUCCESS	+1497.0 (100.0%)	expressionStatementInsertion(('Triangle.java.xml', '_inter_block', 27), ('Triangle.java.xml', 'expression', 5))
+2022-07-20 18:42:51,044	[DEBUG]	*** before: Triangle.java.xml
+--- after: Triangle.java.xml
+***************
+*** 32,37 ****
+--- 32,38 ----
+          } else if (a == b && b == c) {
+              return TriangleType.EQUALATERAL;
+          } else if (a == b || b == c) {
++             b = c;
+              return TriangleType.ISOCELES;
+          } else {
+              return TriangleType.SCALENE;
+
+2022-07-20 18:42:57,271	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1513.0>
+2022-07-20 18:42:57,271	[INFO]	66	SUCCESS	 1513.0 (101.07%)	expressionStatementInsertion(('Triangle.java.xml', '_inter_block', 27), ('Triangle.java.xml', 'expression', 5)) | expressionStatementInsertion(('Triangle.java.xml', '_inter_block', 12), ('Triangle.java.xml', 'expression', 3))
+2022-07-20 18:42:58,733	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:42:58,733	[INFO]	67	PARSE_ERROR	 None	expressionStatementInsertion(('Triangle.java.xml', '_inter_block', 27), ('Triangle.java.xml', 'expression', 5)) | declarationsStatementDeletion(('Triangle.java.xml', 'declarations', 1))
+2022-07-20 18:42:58,733	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1497.0>
+2022-07-20 18:42:58,733	[INFO]	68	SUCCESS	+1497.0 (100.0%)	
+2022-07-20 18:42:58,733	[DEBUG]	
+2022-07-20 18:43:00,604	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:43:00,604	[INFO]	69	PARSE_ERROR	 None	StmtDeletion(('Triangle.java.xml', 'stmt', 3))
+2022-07-20 18:43:03,331	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:43:03,331	[INFO]	70	PARSE_ERROR	 None	expressionStatementReplacement(('Triangle.java.xml', 'expression', 5), ('Triangle.java.xml', 'expression', 3))
+2022-07-20 18:43:06,199	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:43:06,199	[INFO]	71	PARSE_ERROR	 None	expressionStatementDeletion(('Triangle.java.xml', 'expression', 1))
+2022-07-20 18:43:07,923	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:43:07,923	[INFO]	72	PARSE_ERROR	 None	MultilineStatementDeletion(('Triangle.java.xml', 'multiline_stmt', 3))
+2022-07-20 18:43:09,852	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:43:09,852	[INFO]	73	PARSE_ERROR	 None	StmtInsertion(('Triangle.java.xml', '_inter_block', 10), ('Triangle.java.xml', 'stmt', 0))
+2022-07-20 18:43:12,653	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:43:12,653	[INFO]	74	PARSE_ERROR	 None	expressionStatementReplacement(('Triangle.java.xml', 'expression', 5), ('Triangle.java.xml', 'expression', 4))
+2022-07-20 18:43:12,654	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:43:12,654	[INFO]	75	PARSE_ERROR	 None	declarationsStatementDeletion(('Triangle.java.xml', 'declarations', 0))
+2022-07-20 18:43:13,819	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:43:13,820	[INFO]	76	PARSE_ERROR	 None	MultilineStatementDeletion(('Triangle.java.xml', 'multiline_stmt', 5))
+2022-07-20 18:43:13,820	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:43:13,820	[INFO]	77	PARSE_ERROR	 None	declarationsStatementDeletion(('Triangle.java.xml', 'declarations', 1))
+2022-07-20 18:43:15,592	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:43:15,592	[INFO]	78	PARSE_ERROR	 None	declarationsStatementInsertion(('Triangle.java.xml', '_inter_block', 15), ('Triangle.java.xml', 'declarations', 0))
+2022-07-20 18:43:15,593	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:43:15,593	[INFO]	79	PARSE_ERROR	 None	StmtDeletion(('Triangle.java.xml', 'stmt', 1))
+2022-07-20 18:43:16,904	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:43:16,905	[INFO]	80	PARSE_ERROR	 None	expressionStatementInsertion(('Triangle.java.xml', '_inter_block', 1), ('Triangle.java.xml', 'expression', 6))
+2022-07-20 18:43:20,276	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:43:20,277	[INFO]	81	PARSE_ERROR	 None	expressionStatementDeletion(('Triangle.java.xml', 'expression', 4))
+2022-07-20 18:43:20,278	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:43:20,278	[INFO]	82	PARSE_ERROR	 None	MultilineStatementDeletion(('Triangle.java.xml', 'multiline_stmt', 3))
+2022-07-20 18:43:23,952	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1497.0>
+2022-07-20 18:43:23,952	[INFO]	83	SUCCESS	+1497.0 (100.0%)	expressionStatementInsertion(('Triangle.java.xml', '_inter_block', 23), ('Triangle.java.xml', 'expression', 1))
+2022-07-20 18:43:23,953	[DEBUG]	*** before: Triangle.java.xml
+--- after: Triangle.java.xml
+***************
+*** 28,33 ****
+--- 28,34 ----
+          }
+  
+          if (a + b <= c) {
++             a = b;
+              return TriangleType.INVALID;
+          } else if (a == b && b == c) {
+              return TriangleType.EQUALATERAL;
+
+2022-07-20 18:43:25,643	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:43:25,643	[INFO]	84	PARSE_ERROR	 None	expressionStatementInsertion(('Triangle.java.xml', '_inter_block', 23), ('Triangle.java.xml', 'expression', 1)) | StmtInsertion(('Triangle.java.xml', '_inter_block', 15), ('Triangle.java.xml', 'stmt', 1))
+2022-07-20 18:43:25,644	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1497.0>
+2022-07-20 18:43:25,644	[INFO]	85	SUCCESS	+1497.0 (100.0%)	
+2022-07-20 18:43:25,644	[DEBUG]	
+2022-07-20 18:43:25,644	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:43:25,644	[INFO]	86	PARSE_ERROR	 None	expressionStatementDeletion(('Triangle.java.xml', 'expression', 4))
+2022-07-20 18:43:27,423	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:43:27,424	[INFO]	87	PARSE_ERROR	 None	StmtDeletion(('Triangle.java.xml', 'stmt', 0))
+2022-07-20 18:43:29,170	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:43:29,170	[INFO]	88	PARSE_ERROR	 None	declarationsStatementDeletion(('Triangle.java.xml', 'declarations', 2))
+2022-07-20 18:43:29,171	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1497.0>
+2022-07-20 18:43:29,171	[INFO]	89	SUCCESS	+1497.0 (100.0%)	MultilineStatementReplacement(('Triangle.java.xml', 'multiline_stmt', 2), ('Triangle.java.xml', 'multiline_stmt', 2))
+2022-07-20 18:43:29,171	[DEBUG]	
+2022-07-20 18:43:32,795	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 18:43:32,796	[INFO]	90	PARSE_ERROR	 None	MultilineStatementReplacement(('Triangle.java.xml', 'multiline_stmt', 2), ('Triangle.java.xml', 'multiline_stmt', 2)) | MultilineStatementDeletion(('Triangle.java.xml', 'multiline_stmt', 0))
+2022-07-20 18:43:35,033	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 6.0>
+2022-07-20 18:43:35,034	[INFO]	91	SUCCESS	*6.0 (0.4%)	MultilineStatementReplacement(('Triangle.java.xml', 'multiline_stmt', 2), ('Triangle.java.xml', 'multiline_stmt', 2)) | expressionStatementDeletion(('Triangle.java.xml', 'expression', 0))
+2022-07-20 18:43:35,034	[DEBUG]	*** before: Triangle.java.xml
+--- after: Triangle.java.xml
+***************
+*** 6,12 ****
+  
+      public static TriangleType classifyTriangle(int a, int b, int c) {
+  
+!         delay();
+  
+          // Sort the sides so that a <= b <= c
+          if (a > b) {
+--- 6,12 ----
+  
+      public static TriangleType classifyTriangle(int a, int b, int c) {
+  
+!         
+  
+          // Sort the sides so that a <= b <= c
+          if (a > b) {
+
+2022-07-20 18:43:35,034	[INFO]	==== END ====
+2022-07-20 18:43:35,034	[INFO]	Reason: target fitness reached
+2022-07-20 18:43:35,035	[INFO]	
+2022-07-20 18:43:35,035	[INFO]	========== EPOCH 2 ==========
+2022-07-20 18:43:35,035	[INFO]	==== WARMUP ====
+2022-07-20 18:43:38,685	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1496.0>
+2022-07-20 18:43:38,686	[INFO]	WARM	SUCCESS	 1496.0	
+2022-07-20 18:43:42,363	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1507.0>
+2022-07-20 18:43:42,363	[INFO]	WARM	SUCCESS	 1507.0	
+2022-07-20 18:43:46,000	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1498.0>
+2022-07-20 18:43:46,000	[INFO]	WARM	SUCCESS	 1498.0	

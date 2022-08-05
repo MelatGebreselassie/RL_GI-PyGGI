@@ -1,0 +1,15 @@
+2022-07-20 19:07:46,883	[INFO]	========== EPOCH 1 ==========
+2022-07-20 19:07:46,883	[INFO]	==== WARMUP ====
+2022-07-20 19:07:50,629	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1511.0>
+2022-07-20 19:07:50,629	[INFO]	WARM	SUCCESS	 1511.0	
+2022-07-20 19:07:54,316	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1494.0>
+2022-07-20 19:07:54,316	[INFO]	WARM	SUCCESS	 1494.0	
+2022-07-20 19:07:57,948	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1495.0>
+2022-07-20 19:07:57,948	[INFO]	WARM	SUCCESS	 1495.0	
+2022-07-20 19:08:01,576	[DEBUG]	<RunResult 'status': 'SUCCESS', 'fitness': 1500.0>
+2022-07-20 19:08:01,577	[INFO]	INITIAL	SUCCESS	 1500.0	
+2022-07-20 19:08:01,577	[INFO]	==== START ====
+2022-07-20 19:08:03,282	[DEBUG]	<RunResult 'status': 'PARSE_ERROR', 'fitness': None>
+2022-07-20 19:08:03,282	[INFO]	1	PARSE_ERROR	 None	StmtDeletion(('Triangle.java.xml', 'stmt', 1))
+2022-07-20 19:08:03,282	[INFO]	==== END ====
+2022-07-20 19:08:03,282	[INFO]	Reason: None
